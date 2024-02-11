@@ -1,0 +1,38 @@
+.aboutContainer{
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.aboutDescriptions{
+    width: 60%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.aboutImage{
+    width: 40%;
+    min-width: 400px;
+    height: 60vh;
+    position: relative;
+}
+.aboutImage img{
+    max-width:85%;
+    margin: 0 auto;
+    border-radius:1vw;
+    height: auto;
+}
+.masku{
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+}
+.spanner{
+    margin-right: 8px;
+}
+@media (max-width:950px){
+    .aboutContainer{
+        flex-direction: column;
+    }
+}

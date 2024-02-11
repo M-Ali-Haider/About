@@ -1,0 +1,6 @@
+.masku{
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    font-size: 48px;
+}
